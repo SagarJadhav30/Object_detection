@@ -63,7 +63,7 @@ def detect():
     image = request.files['image']
 
     # Secure the filename and save the uploaded image
-    filename = secure_filename(image.filename)
+    filename = secure_filename(image.filename)    
     image_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
     image.save(image_path)
 
