@@ -119,9 +119,6 @@ Include relevant screenshots here.
 
     Performance Optimization: Implement caching and optimize model loading for faster inference.
 
-🤝 Contributors
-
-    Yashraj
 
 📄 License
 
